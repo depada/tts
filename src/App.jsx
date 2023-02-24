@@ -90,7 +90,9 @@ class App extends Component {
             return <option key={`${index}_${item.name}`}> {item.name} </option>;
           })}
         </select>
-        <Slider
+        
+        <div>Rate</div>
+      <Slider
           value={this.state.rate}
           onChange={this.onRateChange}
           size="medium"
@@ -102,6 +104,7 @@ class App extends Component {
           valueLabelDisplay="auto"
           defaultValue={0.4}
         />
+      <div>Pitch</div>
         <Slider
           value={this.state.pitch}
           onChange={this.onPitchChange}
