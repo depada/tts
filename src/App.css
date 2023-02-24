@@ -1,0 +1,52 @@
+body {
+  background: #D5CEA3; /* fallback for old browsers */
+}
+
+.parent {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.heading {
+  text-align: center;
+  color:#E5E5CB;
+  background: #3C2A21;
+  border: black 3px solid;
+  border-radius: 16px;
+  padding: 5px;
+  font-weight: 350;
+  width: 500px;
+}
+
+.img {
+  width: 250px;
+  height: auto;
+  margin-block-end: 15px;
+}
+
+.select {
+  border: black 3px solid;
+  height: 30px;
+  width: 350px;
+  text-align: center;
+}
+
+.textarea {
+  width: 350px;
+  height: 300px;
+  border-radius: 10px;
+  margin: 20px;
+  border: black 3px solid;
+}
+
+.btn {
+  margin: 15px;
+  height: 40px;
+  width: 170px;
+  border-radius: 16px;
+  border: black 3px solid;
+  outline: none;
+  cursor: grab;
+}
